@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseLogin">
         <activity
-            android:name=".RecyclerViewActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

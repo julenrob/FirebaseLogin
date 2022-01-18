@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseLogin</string>
+    <string name="prefs_file">com.julenrob.firebaselogin.PREFERENCE_FILE_KEY</string>
+    <!--<string name="default_web_client_id" translatable="false">913057107612-grlocr0gr1sb9ngon93ntind0llqcoo8.apps.googleusercontent.com</string> -->
+</resources>

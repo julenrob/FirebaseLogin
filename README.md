@@ -11,6 +11,16 @@ La app permite:
   <img src="https://github.com/julenrob/FirebaseLogin/blob/master/foto/Reto1.jpg">
 </p>
 
+- **RETO 2 -> Notificaciones a través de Firebase a un usuario concreto mediante token.**
+
+<p align="center">
+  <img src="https://github.com/julenrob/FirebaseLogin/blob/master/foto/fotoToken1.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/julenrob/FirebaseLogin/blob/master/foto/fotoToken2.jpg">
+</p>
+
 - **RETO 3 -> Anuncio Admob.**
 
 <p align="center">

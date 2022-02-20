@@ -1,6 +1,7 @@
 package com.julenrob.firebaselogin
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
@@ -21,6 +22,8 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        initListeners()
 
         // SETUP
         val bundle : Bundle? = intent.extras
@@ -73,5 +76,10 @@ class HomeActivity : AppCompatActivity() {
             db.collection("users").document(email).delete()
         }
 
+    }
+
+    private fun initListeners() {
+        val bannerIntent = Intent(this, BannerActivity::class.java)
+            binding.btnPubli.setOnClickListener{ startActivity(bannerIntent) }
     }
 }

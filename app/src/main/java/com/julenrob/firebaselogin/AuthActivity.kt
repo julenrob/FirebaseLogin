@@ -9,7 +9,7 @@ import androidx.appcompat.app.AlertDialog
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.google.firebase.analytics.FirebaseAnalytics
+//import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.julenrob.firebaselogin.databinding.ActivityAuthBinding
@@ -23,10 +23,10 @@ class AuthActivity : AppCompatActivity() {
         binding = ActivityAuthBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val analytics:FirebaseAnalytics = FirebaseAnalytics.getInstance(this)
-        val bundle = Bundle()
-        bundle.putString("message", "Integración de Firebase completa.")
-        analytics.logEvent("InitScreen", bundle)
+       // val analytics:FirebaseAnalytics = FirebaseAnalytics.getInstance(this)
+        // val bundle = Bundle()
+        // bundle.putString("message", "Integración de Firebase completa.")
+        // analytics.logEvent("InitScreen", bundle)
 
         setup()
         session()
